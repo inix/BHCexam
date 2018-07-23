@@ -1,6 +1,30 @@
 # BHCexam
-BHCexam math exam template
+BHCexam math exam template.
 
+This is version 0.4 of the BHCexam document class, dated Oct 10, 2015.
+
+The BHCexam document class attempts to make it easy for even a LaTeX novice to prepare exams.
+
+To generate the document class files from .dtx file:
+make cls;
+
+To install the document class files to ~/texmf
+make install;
+
+To generate the user's guide document (with index)
+make [full]doc;
+
+To generate test page
+make test
+
+--------------------------------------------------------------------
+
+This work may be distributed and/or modified under the conditions of
+the LaTeX Project Public License, either version 1.3 of this license
+or (at your option) any later version.
+
+
+## 介绍
 BHCexam宏包介绍：
 
 BHCexam 宏包为中国数学教师设计，提供了一个排版中学数学试卷的LATEX 文档类，由鲍宏昌制作并负责维护。
